@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="checked_false">#999999</color>
+    <color name="checked_true">#FF7F24</color>
+    
+    <color name = "bg_orange">#fb8c00</color>
+
+    <!-- new refresh and load more  Start  ListView 自動加載更多 -->
+    <color name="black">#000000</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

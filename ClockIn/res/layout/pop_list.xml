@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+     <ListView
+        android:id="@+id/mListView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:choiceMode="singleChoice"
+        android:textColor="#FFFFFF"  >
+    </ListView> 
+    
+     <!--
+          android:background="@drawable/bg_interval_picker"
+        android:divider="@android:drawable/divider_horizontal_dark"
+        android:listSelector="@drawable/bg_interval_picker_selection" 
+       -->
+</LinearLayout>

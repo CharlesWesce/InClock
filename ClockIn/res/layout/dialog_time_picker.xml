@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="#F56A55" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff" 
+            android:gravity="center">
+
+ 
+            <com.example.clockin.wedget.timepicker.PickerView
+                android:id="@+id/pv_hour"
+                android:layout_width="80dp"
+                android:layout_height="160dp"
+                 />
+
+            <TextView
+                android:id="@+id/tv_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/pv_hour"
+                android:text="时"
+                android:textColor="#ffaa33"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <com.example.clockin.wedget.timepicker.PickerView
+                android:id="@+id/pv_minute"
+                android:layout_width="80dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@id/tv_hour" />
+
+            <TextView
+                android:id="@+id/tv_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/pv_minute"
+                android:text="分"
+                android:textColor="#ffaa33"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            android:background="#F2F2F2" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="Confirm"
+            android:onClick="onClickConfirm"
+            android:textColor="#444444"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
